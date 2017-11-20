@@ -1,0 +1,4 @@
+<!DOCTYPE: HTML>
+
+<% week = {1 => "Monday", 2 => "Tuesday", 3 => "Wednesday", 4 => "Thursday", 5 => "Friday", 6 => "Saturday", 7 => "Sunday"} %>
+<h1> The date is <%= week[Date.today.wday] %>, <%= Date.today.strftime("%B %d, %Y") %> </h1>
